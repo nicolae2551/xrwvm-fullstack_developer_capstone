@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            color: #333;
+            display: flex;
+            
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .contact {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 350px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 26px;
+            margin: 10px 0;
+            color: #333;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+
+        .item i {
+            color: #0078ff;
+            font-size: 2rem;
+            width: 18px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .title-2{
+            font-size: 40px;
+            background-color: rgb(97, 64, 128);
+            color: white;
+            text-align: center;
+            margin:20px;
+            padding:5px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="card">
+        <h1 class="title-2">Contact Us</h1>
+        <a class="item">
+            <i class="fa-solid fa-phone"></i>
+            +40 124 456 564
+        </a>
+
+        <a class="item">
+            <i class="fa-solid fa-envelope"></i>
+            bestcars@mail.com
+        </a>
+        <a class="item">
+            <i class="fa-solid fa-circle-info"></i>
+            supportbestcars@mail.com
+    </div>
+</body>
+</html>
